@@ -1,0 +1,27 @@
+{
+    "name": "cz-multi-repo",
+    "version": "1.0.1",
+    "description": "Use commitizen in multi-repo projects",
+    "main": "index.js",
+    "bin": "index.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/hamidyfine/cz-multi-repo.git"
+    },
+    "keywords": [
+        "commitizen"
+    ],
+    "author": "hamidyfine",
+    "license": "MIT",
+    "bugs": {
+        "url": "https://github.com/hamidyfine/cz-multi-repo/issues"
+    },
+    "homepage": "https://github.com/hamidyfine/cz-multi-repo#readme",
+    "dependencies": {
+        "commitizen": "^4.2.2",
+        "cz-conventional-changelog": "^3.3.0"
+    }
+}
